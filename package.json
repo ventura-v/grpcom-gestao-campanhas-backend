@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "node app.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },
   "author": "Vinicius Ventura",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.21.2",
     "pg": "^8.11.3"
   },
   "devDependencies": {
