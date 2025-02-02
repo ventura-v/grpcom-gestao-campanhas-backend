@@ -2,7 +2,7 @@ const express = require('express')
 
 const app = express()
 
-const port = process.env.PORT || 3000
+const port = 3000
 
 const path = '/api/v1/status'
 
@@ -21,3 +21,7 @@ app.get(path, (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 })
+
+// app.listen(`${port}/${path}`, () => {
+//     console.log(`Server is running on port ${port}/${path}`)
+// })
