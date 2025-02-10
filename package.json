@@ -14,9 +14,11 @@
   "author": "Vinicius Ventura",
   "license": "ISC",
   "dependencies": {
+    "@nestjs/cli": "^11.0.2",
+    "@nestjs/mapped-types": "*",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "pg": "^8.11.3"
+    "pg": "^8.13.1"
   },
   "devDependencies": {
     "jest": "^29.6.2"
